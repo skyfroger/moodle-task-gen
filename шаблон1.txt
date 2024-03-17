@@ -1,0 +1,6 @@
+var {{x=y=z}}, {{g=w=h}}:integer;
+begin
+    {{x}}:={{-5..5}};
+    {{g}}:=[[abs({{x}})#power({{x}}, 2)#sqr({{x}})]] [[+#-#*]] {{1..5}};
+    writeln({{g}});
+end.

@@ -1,0 +1,13 @@
+var A, B, C:boolean;
+begin
+A:=[[True#False]];
+B:=[[True#False]];
+C:=[[True#False]];
+if [[ #not]] B [[or#and]] [[ #not]] C then
+    writeln(1)
+else
+    if A [[or#and]] C then
+        writeln(2)
+    else
+        writeln(3);
+end.
