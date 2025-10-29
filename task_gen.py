@@ -7,7 +7,7 @@ from typing import List
 SCRIPT_NAME = "task.py"  # имя файла для временного скрипта
 TEMPLATE_NAME = "temp1.txt"  # имя файла с шаблоном
 OUTPUT_FILE_NAME = "gift_q.txt"  # имя файла со списком вопросов
-IS_FINITE = False  # нужно ли определённо количество вариантов
+IS_FINITE = False  # нужно ли определённое количество вариантов
 MAX_Q_COUNT = 5  # количество вопросов
 
 
