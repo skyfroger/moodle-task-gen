@@ -1,8 +1,0 @@
-var {{x=y=z}}: integer;
-begin
-  {{x}}:={{0..5}};
-  repeat
-      {{x}}:={{x}} + {{1..3}};
-  until {{x}} [[<#>#<=#>=]] {{5..10}};
-  writeln({{x}});
-end.

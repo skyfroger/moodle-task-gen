@@ -1,9 +1,0 @@
-var {{x=y=z}}, {{g=w=h}}:real;
-begin
-{{x}}:={{0..10}};
-{{g}}:={{0..10}};
-if {{g}} [[<#>#<>#=]] {{x}} then
-    writeln({{g}})
-else
-    writeln({{x}});
-end.
